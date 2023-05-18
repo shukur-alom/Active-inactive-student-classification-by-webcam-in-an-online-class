@@ -10,7 +10,7 @@ data = pickle.load(file)
 
 class_for_model = ["Inactive", "Active"]
 
-cam = cv2.VideoCapture("videos/Not attentive.mp4")
+cam = cv2.VideoCapture(0)
 
 face_mesh = mp.solutions.face_mesh.FaceMesh(refine_landmarks=True)
 
