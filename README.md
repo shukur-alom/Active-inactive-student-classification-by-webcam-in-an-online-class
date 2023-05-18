@@ -1,7 +1,9 @@
 Active Inactive Student Classification System
 This system utilizes webcam data to classify students as active or inactive during an online class. It follows the following steps:
 
-1. Eye Tracking: The system first detects and tracks 20 points of the user's eyes using computer vision techniques.
+1. Eye Tracking: The system first detects and tracks 20 points of the user's eye using computer vision techniques.
+
+![example](https://github.com/shukur-alom/Active-inactive-student-classification-by-webcam-in-an-online-class/blob/master/eye.png)
 
 2. Data Storage: The eye tracking data is then stored in CSV format for further processing and analysis.
 
